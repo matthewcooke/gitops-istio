@@ -9,4 +9,4 @@ spec:
   containers:
   - name: loadtest
     image: stefanprodan/loadtest
-    command: ['sh', '-c', 'while true; do sleep 30; done;']
+    command: ['sh', '-c', 'while true; do sleep 30; done;'] 
