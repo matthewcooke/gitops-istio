@@ -17,8 +17,8 @@ spec:
     - destination:
         host: podinfo
         subset: canary
-      weight: 50
+      weight: 10
     - destination:
         host: podinfo
         subset: ga
-      weight: 50
+      weight: 90
